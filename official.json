@@ -1,9 +1,0 @@
-{
-  "schemaVersion": 1,
-  "category": "official",
-  "sources": [
-    {"id": "mangaplus_en", "refFile": "manga.json", "refId": "mangaplus_en"},
-    {"id": "webtoons_en", "refFile": "webtoons.json", "refId": "webtoons_en"}
-  ],
-  "notes": "Official publisher/platform sources. Region, licensing, free-chapter windows, and account requirements vary."
-}
