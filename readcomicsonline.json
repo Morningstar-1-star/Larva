@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "category": "special_comic_readers",
+  "sources": [
+    {
+      "id": "readcomicsonline_ru",
+      "name": "ReadComicsOnline.ru",
+      "siteUrl": "https://readcomicsonline.ru/",
+      "language": ["en"],
+      "contentTypes": ["comics"],
+      "sourceKind": "community_hosted_site",
+      "integration": "kotatsu_redo",
+      "parser": {
+        "sourceId": "READCOMICSONLINE",
+        "repo": "https://github.com/Kotatsu-Redo/kotatsu-parsers-redo",
+        "filePath": "src/main/kotlin/org/koitharu/kotatsu/parsers/site/mmrcms/en/ReadComicsOnline.kt",
+        "parserChecked": true
+      },
+      "antiBot": ["cloudflare"],
+      "requiresBrowserFallback": true,
+      "notes": "Parser file implements listing, search, details, chapters, and pages. Automated requests may receive HTTP 403/Cloudflare challenges; do not mark dead on 403 alone."
+    }
+  ]
+}

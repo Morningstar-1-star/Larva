@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "category": "comics",
+  "sources": [
+    {"id": "weebcentral", "refFile": "manga.json", "refId": "weebcentral"}
+  ],
+  "notes": "Only sources with a known compatible parser are listed here. See special/ for GetComics and ReadComicsOnline."
+}
