@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "category": "manhwa",
+  "sources": [
+    {"id": "weebcentral", "refFile": "manga.json", "refId": "weebcentral"},
+    {"id": "mangapill", "refFile": "manga.json", "refId": "mangapill"},
+    {"id": "mangafire_en", "refFile": "manga.json", "refId": "mangafire_en"}
+  ],
+  "notes": "Category references point to canonical records in manga.json; they do not duplicate parser definitions."
+}
