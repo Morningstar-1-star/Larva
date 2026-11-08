@@ -1,7 +1,0 @@
-{
-  "schemaVersion": 1,
-  "category": "webtoons",
-  "sources": [
-    {"id": "webtoons_en", "name": "WEBTOON (English)", "siteUrl": "https://www.webtoons.com/en/", "language": ["en"], "contentTypes": ["webtoon"], "sourceKind": "official_platform", "integration": "kotatsu_redo", "parser": {"sourceId": "WEBTOONS_EN", "repo": "https://github.com/Kotatsu-Redo/kotatsu-parsers-redo", "filePath": "src/main/kotlin/org/koitharu/kotatsu/parsers/site/all/WebtoonsParser.kt", "parserChecked": true}, "notes": "Official WEBTOON platform. Parser class is shared across language variants."}
-  ]
-}
