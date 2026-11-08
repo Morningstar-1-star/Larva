@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "category": "special_comic_archives",
+  "sources": [
+    {
+      "id": "getcomics_archive",
+      "name": "GetComics",
+      "siteUrl": "https://getcomics.org/page/2/",
+      "language": ["en", "multi"],
+      "contentTypes": ["western_comics", "comic_archives"],
+      "sourceKind": "download_archive",
+      "integration": "custom_adapter_required",
+      "parser": null,
+      "apiRepository": "https://github.com/Jupiee/getcomics-api",
+      "apiStatus": "experimental_unofficial",
+      "notes": "Archive/download catalogue, not a standard manga chapter reader. The linked unofficial API's last recorded code push was 2024-10-25; audit and test before reuse."
+    }
+  ]
+}
