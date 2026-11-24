@@ -1,98 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T23:39:07+00:00",
+  "generatedAt": "2026-11-24T09:17:47+00:00",
   "scope": "HTTP host reachability only; not parser validation",
   "summary": {
-    "reachable": 6,
-    "blocked": 2
+    "reachable": 7,
+    "blocked": 1
   },
   "results": [
     {
       "id": "getcomics_archive",
       "name": "GetComics",
       "siteUrl": "https://getcomics.org/page/2/",
-      "checkedAt": "2026-11-23T23:39:05+00:00",
+      "checkedAt": "2026-11-24T09:17:46+00:00",
       "result": "reachable",
       "httpStatus": 200,
       "finalUrl": "https://getcomics.org/page/2/",
-      "elapsedMs": 212,
+      "elapsedMs": 358,
       "note": null
     },
     {
       "id": "mangadex",
       "name": "MangaDex",
       "siteUrl": "https://mangadex.org/",
-      "checkedAt": "2026-11-23T23:39:05+00:00",
+      "checkedAt": "2026-11-24T09:17:46+00:00",
       "result": "reachable",
       "httpStatus": 206,
       "finalUrl": "https://mangadex.org/",
-      "elapsedMs": 204,
+      "elapsedMs": 192,
       "note": null
     },
     {
       "id": "mangafire_en",
       "name": "MangaFire (English)",
       "siteUrl": "https://mangafire.to/",
-      "checkedAt": "2026-11-23T23:39:05+00:00",
-      "result": "blocked",
-      "httpStatus": 403,
+      "checkedAt": "2026-11-24T09:17:46+00:00",
+      "result": "reachable",
+      "httpStatus": 200,
       "finalUrl": "https://mangafire.to/",
-      "elapsedMs": 59,
-      "note": "HTTP response received; a block/error response does not prove the site is dead."
+      "elapsedMs": 258,
+      "note": null
     },
     {
       "id": "mangapill",
       "name": "MangaPill",
       "siteUrl": "https://mangapill.com/",
-      "checkedAt": "2026-11-23T23:39:06+00:00",
+      "checkedAt": "2026-11-24T09:17:47+00:00",
       "result": "reachable",
       "httpStatus": 200,
       "finalUrl": "https://mangapill.com/",
-      "elapsedMs": 358,
+      "elapsedMs": 1157,
       "note": null
     },
     {
       "id": "mangaplus_en",
       "name": "MANGA Plus (English)",
       "siteUrl": "https://mangaplus.shueisha.co.jp/",
-      "checkedAt": "2026-11-23T23:39:06+00:00",
+      "checkedAt": "2026-11-24T09:17:47+00:00",
       "result": "reachable",
       "httpStatus": 206,
       "finalUrl": "https://mangaplus.shueisha.co.jp/",
-      "elapsedMs": 230,
+      "elapsedMs": 1080,
       "note": null
     },
     {
       "id": "readcomicsonline_ru",
       "name": "ReadComicsOnline.ru",
       "siteUrl": "https://readcomicsonline.ru/",
-      "checkedAt": "2026-11-23T23:39:06+00:00",
+      "checkedAt": "2026-11-24T09:17:46+00:00",
       "result": "blocked",
       "httpStatus": 403,
       "finalUrl": "https://readcomicsonline.ru/",
-      "elapsedMs": 256,
+      "elapsedMs": 190,
       "note": "HTTP response received; a block/error response does not prove the site is dead."
     },
     {
       "id": "webtoons_en",
       "name": "WEBTOON (English)",
       "siteUrl": "https://www.webtoons.com/en/",
-      "checkedAt": "2026-11-23T23:39:07+00:00",
+      "checkedAt": "2026-11-24T09:17:47+00:00",
       "result": "reachable",
       "httpStatus": 206,
       "finalUrl": "https://www.webtoons.com/en/",
-      "elapsedMs": 1026,
+      "elapsedMs": 1156,
       "note": null
     },
     {
       "id": "weebcentral",
       "name": "Weeb Central",
       "siteUrl": "https://weebcentral.com/",
-      "checkedAt": "2026-11-23T23:39:06+00:00",
+      "checkedAt": "2026-11-24T09:17:46+00:00",
       "result": "reachable",
       "httpStatus": 200,
       "finalUrl": "https://weebcentral.com/",
-      "elapsedMs": 246,
+      "elapsedMs": 314,
       "note": null
     }
   ]
